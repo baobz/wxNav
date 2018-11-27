@@ -1,0 +1,12 @@
+<view class="container">
+  <view>
+    <view class="sub-title">demo</view>
+    <scroll-view scroll-with-animation scroll-x class="title-scroll-view" bindscroll="scrollMove" scroll-left='{{scrollLeft}}'>
+    
+    <view wx:for="{{nav}}" wx:key="*this" 
+      class="title-item {{activeIdx === index ? 'active' : ''}}"
+      bindtap="choseNav" id="ele{{index}}" data-index='{{index}}'>{{item}}</view>
+    
+    </scroll-view>
+  </view>
+</view>

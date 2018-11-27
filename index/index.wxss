@@ -1,0 +1,18 @@
+.active {
+  color: red;
+}
+.title-scroll-view{
+  overflow:hidden;
+  white-space:nowrap;
+}
+.sub-title {
+  text-align: center;
+}
+.title-item {
+  display: inline-block;
+  padding: 20rpx 15rpx;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
